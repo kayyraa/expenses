@@ -1,0 +1,75 @@
+@import             url("preset.css");
+
+body {
+    background-color: var(--bg)      ;
+    color           : var(--cl)      ;
+}
+
+#total {
+    position        : fixed          ;
+    top             : 80%            ;
+    left            : 26.5%          ;
+
+    font-size       : 48px           ;
+    font-family     : "Consolas"     ;
+}
+
+#new_expense {
+    position        : fixed          ;
+    left            : 41%            ;
+    top             : 75%            ;
+
+    font-family     : "Consolas"     ;
+    font-size       : 26px           ;
+    border          : none           ;
+    border-radius   : 4px            ;
+    cursor          : pointer        ;
+}
+
+#del_expense {
+    position        : fixed          ;
+    left            : 26.5%          ;
+    top             : 75%            ;
+
+    font-family     : "Consolas"     ;
+    font-size       : 26px           ;
+    border          : none           ;
+    border-radius   : 4px            ;
+    cursor          : pointer        ;
+}
+
+#favicon {
+    position        : fixed          ;
+    aspect-ratio    : 1 / 1          ;
+}
+
+#currency {
+    position        : fixed          ;
+    left            : 68%            ;
+    top             : 75%            ;
+
+    border          : none           ;
+    border-radius   : 4px            ;
+    font-size       : 26px           ;
+    width           : 80px           ;
+    font-family     : "Consolas"     ;
+}
+
+#cur {
+    position        : fixed          ;
+    left            : 59%            ;
+    top             : 75%            ;
+
+    font-family     : "Consolas"     ;
+    font-size       : 26px           ;
+}
+
+#app {
+    display         : block          ;
+    margin          : auto           ;
+    
+    background-color: var(--dv)      ;
+    width           : 720px          ;
+    height          : 512px          ;
+    border-radius   : 16px           ;
+}
